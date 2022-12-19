@@ -1,0 +1,52 @@
+{
+  "abis": [
+    "arm64-v8a"
+  ],
+  "assets": [],
+  "build": {
+    "build_id": "F4670BFE-2",
+    "build_number": 2,
+    "build_time": 1671414948624,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "features": {
+    "activityIntentTasks": false,
+    "nodejs": "auto"
+  },
+  "icon": "images/ic_app_logo.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "images/ic_splash.png",
+    "splashText": "让生活更简单",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "打卡",
+  "optimization": {
+    "obfuscateComponents": true,
+    "removeAccessibilityService": false,
+    "removeOpenCv": true,
+    "unusedResources": true
+  },
+  "packageName": "com.kaka.dingtalk",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.SYSTEM_ALERT_WINDOW"
+    ],
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+    ]
+  },
+  "scripts": {},
+  "useFeatures": [],
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}
